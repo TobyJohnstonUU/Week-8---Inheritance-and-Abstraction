@@ -44,11 +44,14 @@ namespace SmartHomeController
             set { isLoggedIn = value; }
         }
 
-        User(int userID, string userName, string contactInfo)
+        User(int userID, string userName, string contactInfo, 
+            string password, bool loggedIn)
         {
-            this.UserID = userID;
-            this.UserName = userName;
-            this.ContactInfo = contactInfo;
+            UserID = userID;
+            UserName = userName;
+            Password = password;
+            ContactInfo = contactInfo;
+            IsLoggedIn = loggedIn;
         }
 
         public bool Login(string userName, string password)
