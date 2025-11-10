@@ -10,7 +10,9 @@ namespace SmartHomeController
     {
         private int userID;
         private string userName;
+        private string password;
         private string contactInfo;
+        private bool isLoggedIn;
 
         public int UserID
         {
@@ -24,11 +26,58 @@ namespace SmartHomeController
             set { userName = value; }
         }
 
+        public string Password
+        {
+            get { return password; }
+            set { password = value; }
+        }
+
         public string ContactInfo
         {
             get { return contactInfo; }
             set { contactInfo = value; }
         }
 
+        public bool IsLoggedIn
+        {
+            get { return isLoggedIn; }
+            set { isLoggedIn = value; }
+        }
+
+        User(int userID, string userName, string contactInfo)
+        {
+            this.UserID = userID;
+            this.UserName = userName;
+            this.ContactInfo = contactInfo;
+        }
+
+        public bool Login(string userName, string password)
+        {
+            if (userName == UserName && password == Password)
+            {
+                isLoggedIn = true;
+                Console.WriteLine("Logged In");
+            } else {
+                isLoggedIn = false;
+                Console.WriteLine("login failed, username or password is incorrect");
+            }
+            return IsLoggedIn;
+        }
+        
+        public void Logout()
+        {
+            if (IsLoggedIn)
+            {
+                IsLoggedIn = false;
+                Console.WriteLine("Logged out succesfully");
+            } else {
+                Console.WriteLine("Already logged out");
+            }
+        }
+
+        public void ControlDevice()
+        {
+
+        }
     }
 }

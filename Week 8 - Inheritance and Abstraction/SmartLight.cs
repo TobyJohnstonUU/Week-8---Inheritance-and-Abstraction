@@ -8,6 +8,5 @@ namespace SmartHomeController
 {
     internal class SmartLight : SmartDevice
     {
-
     }
 }

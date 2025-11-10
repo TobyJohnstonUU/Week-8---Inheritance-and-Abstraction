@@ -30,11 +30,11 @@ namespace SmartHomeController
             set { status = value; }
         }
 
-        /*SmartDevice(int deviceID, string name, bool status)
+        SmartDevice(int deviceID, string name, bool status)
         {
             this.DeviceID = deviceID;
             this.Name = name;
             this.Status = status;
-        }*/
+        }
     }
 }

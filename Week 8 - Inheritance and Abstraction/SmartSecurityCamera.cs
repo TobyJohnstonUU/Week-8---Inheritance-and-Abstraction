@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SmartHomeController
 {
-    public class SmartSecurityCamera
+    public class SmartSecurityCamera : SmartDevice
     {
     }
 }
