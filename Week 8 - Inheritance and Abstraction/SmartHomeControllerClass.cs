@@ -1,6 +1,10 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-class SmartHomeController
+public class SmartHomeControllerClass
 {
     private int controllerID;
     private string location;
@@ -24,7 +28,7 @@ class SmartHomeController
         set { status = value; }
     }
 
-    SmartHomeController(int controllerID, string location, bool status)
+    SmartHomeControllerClass(int controllerID, string location, bool status)
     {
         this.ControllerID = controllerID;
         this.Location = location;

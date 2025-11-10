@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Week_8___Inheritance_and_Abstraction
+namespace SmartHomeController
 {
-    internal class SmartLight
+    internal class SmartLight : SmartDevice
     {
+
     }
 }

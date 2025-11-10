@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36511.14 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week 8 - Inheritance and Abstraction", "Week 8 - Inheritance and Abstraction\Week 8 - Inheritance and Abstraction.csproj", "{E8400FD6-AAE0-46D9-835A-681A75531B21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartHomeController", "Week 8 - Inheritance and Abstraction\SmartHomeController.csproj", "{E8400FD6-AAE0-46D9-835A-681A75531B21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

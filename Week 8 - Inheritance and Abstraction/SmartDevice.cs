@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Week_8___Inheritance_and_Abstraction
+namespace SmartHomeController
 {
-    internal class SmartDevice
+    public class SmartDevice
     {
         private int deviceID;
         private string deviceName;
@@ -30,11 +30,11 @@ namespace Week_8___Inheritance_and_Abstraction
             set { status = value; }
         }
 
-        SmartDevice(int deviceID, string name, bool status)
+        /*SmartDevice(int deviceID, string name, bool status)
         {
             this.DeviceID = deviceID;
             this.Name = name;
             this.Status = status;
-        }
+        }*/
     }
 }
