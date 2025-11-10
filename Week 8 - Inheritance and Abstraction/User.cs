@@ -29,5 +29,6 @@ namespace SmartHomeController
             get { return contactInfo; }
             set { contactInfo = value; }
         }
+
     }
 }
