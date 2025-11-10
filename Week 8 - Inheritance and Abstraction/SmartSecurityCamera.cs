@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace Week_8___Inheritance_and_Abstraction
 {
-    internal class User
+    internal class SmartSecurityCamera
     {
-        private int userID;
-        private string userName;
-        private string contactInfo;
     }
 }
